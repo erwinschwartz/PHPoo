@@ -25,3 +25,10 @@ class Singleton {
 
 // $s = new Singleton; 
 // Erreur, la fonction __construct() est private donc non accessible hors de la classe.
+
+$objet1 = Singleton::getInstance();
+
+$objet2 = Singleton::getInstance();
+
+var_dump($objet1);
+var_dump($objet2);
